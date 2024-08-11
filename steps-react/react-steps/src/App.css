@@ -30,6 +30,14 @@ body{
 }
 
 
+.heading{
+    text-align: center;
+    color: orangered;
+
+}
+
+
+
 .primary__btn {
     background-color: orangered;
     color: #f2f2f2;
@@ -72,4 +80,25 @@ body{
 .btn__disabled {
     cursor:not-allowed;
     opacity: 0.3;
+}
+
+/* Options */
+
+.option__content{
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+        width: 100%;
+        align-items: center;
+        /* justify-content: center; */
+}
+
+
+.option__content-key{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    cursor: pointer;
 }

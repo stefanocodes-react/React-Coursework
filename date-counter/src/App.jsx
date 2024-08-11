@@ -1,10 +1,10 @@
 import "./App.css";
-import Quiz from "./Quiz";
+import DateCounter from "./components/DateCounter";
 
 function App() {
   return (
     <>
-      <Quiz />
+      <DateCounter />
     </>
   );
 }
